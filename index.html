@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EM Studios</title>
+    <meta name="description" content="EM Studios makes casual games for Android and iOS, including the block puzzle Penta-Fit." />
+    <link rel="icon" href="penta-fit/icon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="hero">
+        <h1>EM STUDIOS</h1>
+        <p>Casual games for Android and iOS.</p>
+      </section>
+
+      <section class="card" aria-labelledby="penta-fit">
+        <img src="penta-fit/icon.svg" alt="Penta-Fit app icon" />
+        <div>
+          <h2 id="penta-fit">Penta-Fit</h2>
+          <p>A block puzzle: drag blocks onto the board, fill rows and columns to clear them, and chase your best score.</p>
+          <span class="badge">Coming soon to Google Play and the App Store</span>
+          <p><a href="penta-fit/privacy.html">Privacy policy</a></p>
+        </div>
+      </section>
+    </main>
+    <footer class="wrap">
+      &copy; <span id="year">2026</span> EM Studios
+    </footer>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
